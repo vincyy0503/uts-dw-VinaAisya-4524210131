@@ -1,11 +1,13 @@
 console.log("Hasil kartu");
 
+//imput minimal 3
 const namaInput = document.querySelector("#namaHewan");
 const jenisInput = document.querySelector("#jenisHewan");
 const umurInput = document.querySelector("#umurHewan");
 const warnaInput = document.querySelector("#warnaKartu");
 const deskInput = document.querySelector("#deskripsiHewan");
 
+//elemen preview
 const card = document.querySelector(".card");
 const previewNama = document.querySelector("#preview-nama");
 const previewJenis = document.querySelector("#preview-jenis");
