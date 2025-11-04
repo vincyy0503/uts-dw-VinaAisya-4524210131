@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Generator Kartu Hewan Lucu </title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1> Generator Kartu Hewan Lucu </h1>
+    <p>Buat kartu imut untuk hewan peliharaanmu dalam sekejap!</p>
+  </header>
+
+  <main>
+    <form id="formHewan">
+      <h2>Isi Data Hewanmu </h2>
+
+      <label for="namaHewan">Nama Hewan:</label>
+      <input type="text" id="namaHewan" placeholder="Misal: Miko">
+
+      <label for="jenisHewan">Jenis Hewan:</label>
+      <select id="jenisHewan">
+        <option value="">Pilih jenis...</option>
+        <option value="kucing">Kucing</option>
+        <option value="anjing">Anjing</option>
+        <option value="kelinci">Kelinci</option>
+      </select>
+
+      <label for="umurHewan">Umur Hewan:</label>
+      <input type="number" id="umurHewan" placeholder="Misal: 2">
+
+      <label for="warnaKartu">Warna Kartu:</label>
+        <select id="warnaKartu">
+        <option value="">Pilih warna...</option> 
+        <option value="#f4a5e0ce">Ungu Lucu</option>
+        <option value="#6accea94">Biru Cerah</option>
+        <option value="#d3b17f72">coklat muda</option>
+        <option value="#3fc5b87e">Hijau Segar</option>
+        <option value="#fff3e0">Kuning Hangat</option>
+        <option value="#fbcfdd">pink soft</option>
+      </select>
+
+      <label for="deskripsiHewan">Deskripsi Lucu:</label>
+      <textarea id="deskripsiHewan" rows="3" placeholder="Ceritakan keunikan hewanmu..."></textarea>
+    </form>
+
+    <section id="preview">
+      <div class="card">
+        <img id="preview-gambar" src="img/default.png" alt="Foto Hewan">
+        <h2 id="preview-nama">Nama Hewan</h2>
+        <p id="preview-jenis">Jenis Hewan</p>
+        <p id="preview-umur">Umur: - tahun</p>
+        <p id="preview-deskripsi">Deskripsi hewan akan muncul di sini </p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Dibuat oleh Vina Aisya | UTS Desain Web</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
